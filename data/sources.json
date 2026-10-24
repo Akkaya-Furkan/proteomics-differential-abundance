@@ -1,0 +1,21 @@
+{
+  "retrieved_utc": "2026-10-24T12:02:35.129708+00:00",
+  "study": "PXD000279",
+  "design_source": "experimentalDesign.txt; DEqMS vignette section 2.2",
+  "sources": [
+    {
+      "url": "https://ftp.ebi.ac.uk/pride-archive/2014/09/PXD000279/proteomebenchmark.zip",
+      "path": "data/raw/proteomebenchmark.zip",
+      "sha256": "557a66cc71a1be36b6666a602cfecb2b8868dcf23069816cb764b84af7d7133c"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/stream?query=proteome%3AUP000000625&format=tsv&fields=accession,go_p",
+      "path": "data/ecoli_go_bp.tsv",
+      "sha256": "1969f07b04df435f3f68345f9ffceec00cb84e765352bafd0f73909dd1e9f8b1"
+    }
+  ],
+  "extracted": {
+    "proteinGroups.txt": "d245d4dc5b7ccc1a75eb21d36d89ed3fd1ace01ca858bd8eef9d65e3cc1411ea",
+    "experimentalDesign.txt": "a47f0cd160d8eb853652a90e6c415e142fa1155a0be064a2310ad7957e32f7f9"
+  }
+}

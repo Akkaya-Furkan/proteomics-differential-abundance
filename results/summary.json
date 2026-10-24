@@ -1,0 +1,47 @@
+{
+  "raw_groups": 6694,
+  "clean_groups": 6507,
+  "tested_groups": 5019,
+  "excluded_flags": 187,
+  "excluded_coverage": 1488,
+  "samples": 6,
+  "source_fraction_files": 143,
+  "filename_label_conflicts": 6,
+  "missing_tested_cells": 612,
+  "tested_cells": 30114,
+  "methods": {
+    "left_shift": {
+      "tested": 5019,
+      "significant": 1338,
+      "up": 1039,
+      "down": 299,
+      "overlap_primary": 1338,
+      "jaccard_primary": 1.0
+    },
+    "row_median": {
+      "tested": 5019,
+      "significant": 1347,
+      "up": 1058,
+      "down": 289,
+      "overlap_primary": 1301,
+      "jaccard_primary": 0.940028901734104
+    },
+    "no_imputation": {
+      "tested": 5019,
+      "significant": 1404,
+      "up": 1087,
+      "down": 317,
+      "overlap_primary": 1326,
+      "jaccard_primary": 0.9364406779661016
+    }
+  },
+  "go_mapped_groups": 1354,
+  "go_up_groups": 902,
+  "go_terms_tested": 182,
+  "go_terms_fdr05": 0,
+  "seed": 17,
+  "source_hashes": {
+    "data/raw/proteomebenchmark.zip": "557a66cc71a1be36b6666a602cfecb2b8868dcf23069816cb764b84af7d7133c",
+    "data/ecoli_go_bp.tsv": "1969f07b04df435f3f68345f9ffceec00cb84e765352bafd0f73909dd1e9f8b1"
+  }
+}

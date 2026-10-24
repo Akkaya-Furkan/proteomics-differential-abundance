@@ -1,6 +1,7 @@
+data/raw/
 __pycache__/
+.pytest_cache/
 *.pyc
 .venv/
 .env
 .ipynb_checkpoints/
-data/raw/

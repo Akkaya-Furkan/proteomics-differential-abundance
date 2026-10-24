@@ -1,0 +1,7 @@
+sample	group	ecoli_ug	source_fraction_files	filename_label_conflicts
+H1	high	30	23	0
+H2	high	30	24	0
+H3	high	30	24	0
+L1	low	10	24	2
+L2	low	10	24	2
+L3	low	10	24	2

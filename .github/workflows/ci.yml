@@ -1,0 +1,26 @@
+name: Proteomics analysis
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+      - name: Download and verify public sources
+        run: python -m scripts.download_data
+      - name: Reproduce analysis
+        run: python -m scripts.analyze
+      - name: Run statistical and artifact checks
+        run: python -m pytest -q
+      - uses: actions/upload-artifact@v4
+        with:
+          name: proteomics-results
+          path: results/
