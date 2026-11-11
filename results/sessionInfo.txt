@@ -3,7 +3,7 @@ Platform: x86_64-conda-linux-gnu
 Running under: Fedora Linux 44 (Workstation Edition)
 
 Matrix products: default
-BLAS/LAPACK: /home/furkanakkaya/miniconda3/envs/p17-proteomics/lib/libopenblasp-r0.3.34.so;  LAPACK version 3.12.0
+BLAS/LAPACK: ~/miniconda3/envs/p17-proteomics/lib/libopenblasp-r0.3.34.so;  LAPACK version 3.12.0
 
 locale:
  [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
